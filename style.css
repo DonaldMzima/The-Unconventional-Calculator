@@ -1,9 +1,25 @@
-.img-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+html {
+  scroll-behavior: smooth;
 }
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.img-container {
+  margin-top: 0px;
+  /* display: block; */
+  margin-left: 75%;
+  width: 40%;
+
+  z-index: 10;
+}
+
+.img-style {
+  height: 100px;
+}
+
 p {
   color: blue;
 }
@@ -15,17 +31,27 @@ p {
   color: seashell;
 }
 .welcome-section {
-  position: fixed;
-  text-decoration: rgb(186, 186, 243);
+  /* display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 footer {
-  position: fixed;
   width: 100%;
   left: 0;
   bottom: 0;
   background-color: black;
   color: white;
   text-align: center;
+  height: 110px;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: black;
   height: 110px;
 }
