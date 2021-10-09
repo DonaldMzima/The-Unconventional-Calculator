@@ -21,6 +21,8 @@ body {
 
 p {
   color: blue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .email {
   color: white;
@@ -60,4 +62,9 @@ nav {
   padding: 25px;
   margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.gold-background {
+  background-color: gold;
+  width: 12%;
 }
