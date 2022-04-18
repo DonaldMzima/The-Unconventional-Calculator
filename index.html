@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="script" href="Java-kid.js"/>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -142,11 +143,14 @@
     </form>
 
     <footer>
-      <p>
-        email:<a class="email" href="mailto:donaldmzima8@gmail.com">email </a>
-      </p>
-
-      <p>call: <a class="call" href="tel:±27789941731">078-994-1731 </a></p>
+    <div id="footer"></div>
+      
     </footer>
+    <script>
+      var myName = "Dada"
+      // console.log(myName)
+      document.getElementById("footer").innerText = myName
+      document.getElementById("footer").textContent = myName
+    </script>
   </body>
 </html>
