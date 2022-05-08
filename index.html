@@ -18,23 +18,48 @@
     <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav>    
-     <div class="hamburger">
-       <div class="line"></div>
-       <div class="line"></div>
-       <div class="line"></div>
-     </div>
-     <ul class="nav"-links>
-       <li><a href="#">About</a></li>
-       <li><a href="#">Contacts</a></li>
-       <li><a href="#">Projects</a></li>
-     </ul>
-    </nav>  
-
- <section class="landing">
-   <img src="https://www.svgrepo.com/show/293422/circles-menu.svg" alt="dots">
- </section>
- <h1>Dots</h1>
+    <header>
+      <!-- NAVIGATION BAR -->
+       <nav>
+   
+         <h1>Dev Donald</h1>
+         <ul class="main_nav">
+           <li>
+             <a data-page="Home" href="#" class="nav_links">Home</a>
+           </li>
+           <li>
+             <a data-page="About" href="#" class="nav_links">About</a>
+           </li>
+           <li>
+             <a data-page="Contact" href="#" class="nav_links">Contact</a>
+           </li>
+           <li>
+             <a data-page="Project" href="#" class="nav_links">Project</a>
+           </li>
+           <div class="bubble"></div>
+         </ul>
+       </nav>   
+   </header>
+   
+   
+   <main>
+     <section data-index="0" class="Home">
+       <h2>Home</h2>
+     </section>
+   
+     <section data-index="1"  class="About">
+       <h2>About</h2>
+     </section>
+   
+   
+     <section data-index="2"  class="Contact">
+       <h2>Contact</h2>
+     </section>
+   
+     <section data-index="3"  class="Project">
+       <h2>Project</h2>
+     </section>
+   </main>
 
 
 
