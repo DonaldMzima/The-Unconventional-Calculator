@@ -1,4 +1,4 @@
-/*NAVIGATION BAR*/
+/*NAVIGATION BAr*/
 *{
   margin: 0;
   padding: 0;
@@ -16,7 +16,9 @@ body{
 
 }	
 
-.nav{	
+.nav {	
+  position: sticky;	
+  top: 0;	
   min-height: 10vh;	
   margin: auto;	
   width: 90%;	
@@ -34,7 +36,10 @@ flex: 1;
 nav ul{	
   list-style: none;	
   display: flex;	
-  justify-content: space-between;	
+  /* justify-content: space-between;	 */
+  gap: 30px;
+  /* flex-direction: row-reverse; */
+  justify-content: end;
 }	
 
 nav a{	
@@ -72,7 +77,7 @@ section h2{
   background: linear-gradient(to right top,#b45,#fef949);	
 } 	
 
-.bubble{
+#bubble{
   position: absolute;
   z-index: -2;
   background: linear-gradient(to right top,#f46b45,#eea849);	
